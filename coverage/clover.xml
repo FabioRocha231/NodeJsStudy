@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1648257365593" clover="3.2.0">
-  <project timestamp="1648257365593" name="All files">
-    <metrics statements="69" coveredstatements="69" conditionals="11" coveredconditionals="11" methods="5" coveredmethods="5" elements="85" coveredelements="85" complexity="0" loc="69" ncloc="69" packages="2" files="2" classes="2"/>
-    <package name="controller.signup">
-      <metrics statements="53" coveredstatements="53" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+<coverage generated="1648258251011" clover="3.2.0">
+  <project timestamp="1648258251011" name="All files">
+    <metrics statements="76" coveredstatements="56" conditionals="11" coveredconditionals="8" methods="5" coveredmethods="2" elements="92" coveredelements="66" complexity="0" loc="76" ncloc="76" packages="4" files="5" classes="5"/>
+    <package name="domain.usecases">
+      <metrics statements="11" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="add-account.ts" path="/Users/fabiohrfilho/Documents/NodeJsStudy/src/domain/usecases/add-account.ts">
+        <metrics statements="11" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.controller.signup">
+      <metrics statements="57" coveredstatements="53" conditionals="9" coveredconditionals="8" methods="3" coveredmethods="2"/>
+      <file name="signup-protocols.ts" path="/Users/fabiohrfilho/Documents/NodeJsStudy/src/presentation/controller/signup/signup-protocols.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
       <file name="signup.ts" path="/Users/fabiohrfilho/Documents/NodeJsStudy/src/presentation/controller/signup/signup.ts">
         <metrics statements="53" coveredstatements="53" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -61,26 +85,24 @@
         <line num="53" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="helpers">
-      <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
-      <file name="http-helper.ts" path="/Users/fabiohrfilho/Documents/NodeJsStudy/src/presentation/helpers/http-helper.ts">
-        <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+    <package name="presentation.errors">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/fabiohrfilho/Documents/NodeJsStudy/src/presentation/errors/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="6" type="stmt"/>
-        <line num="6" count="6" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.protocols">
+      <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="controller.ts" path="/Users/fabiohrfilho/Documents/NodeJsStudy/src/presentation/protocols/controller.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
       </file>
     </package>
   </project>
