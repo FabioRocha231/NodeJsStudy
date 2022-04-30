@@ -225,8 +225,7 @@ describe("Signup Controller", () => {
   });
 
   test("Should return 200 if if valid data is provided", async () => {
-    const { sut, emailValidatorStub } = makeSut();
-
+    const { sut } = makeSut();
     const httpRequest = {
       body: {
         name: "valid_name",
